@@ -48,6 +48,9 @@ a:hover {
   cursor: pointer;
   background: transparent;
 }
+button i {
+  margin-right: 12px;
+}
 /* Shared CSS end here */
 
 /* Navbar CSS start from here */
