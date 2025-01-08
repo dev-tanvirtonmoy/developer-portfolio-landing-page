@@ -210,14 +210,14 @@ nav .nav-link li {
 /* Resume section CSS start from here */
 #resume {
   width: 1140px;
-  margin:0 auto 110px;
+  margin: 0 auto 110px;
   text-align: center;
 }
 #resume > h2 {
   text-align: center;
   margin-bottom: 100px;
 }
-#resume .resume-container{
+#resume .resume-container {
   display: flex;
   /* gap: 30px; */
   justify-content: space-between;
@@ -232,9 +232,9 @@ nav .nav-link li {
 .r-card .card {
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #D1D1D1;
+  border-bottom: 1px solid #d1d1d1;
 }
-.r-card .card:last-child{
+.r-card .card:last-child {
   border-bottom: none;
   margin-bottom: 5-px;
   padding-bottom: 0;
@@ -258,3 +258,57 @@ nav .nav-link li {
   width: 511px;
 }
 /* Resume section CSS end here */
+
+/* Footer CSS start from here */
+footer {
+  background: #fff8f3;
+}
+.footer-con {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+  display: flex;
+}
+.footer-con .footer-description {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 562px;
+  margin: 20px 0;
+}
+.footer-left ul {
+  display: flex;
+  gap: 24px;
+}
+.footer-left ul li a i {
+  font-size: 24px;
+}
+.footer-right h2 {
+  margin-bottom: 20px;
+}
+.footer-right input,
+textarea {
+  padding: 18px 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+.footer-right input::placeholder {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.footer-right textarea {
+  height: 180px;
+}
+.footer-right textarea::placeholder {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* Footer CSS end here */
