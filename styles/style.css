@@ -130,5 +130,40 @@ nav .nav-link li {
   background: #fff8f3;
   width: 1140px;
   margin: 130px auto;
+  padding: 100px 158px;
 }
+#about .about-content {
+  background: #fff;
+  border: 1px solid #000;
+  text-align: center;
+}
+.section-title {
+  color: var(--dark-1);
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-content > .description {
+  color: var(--dark-3);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.about-content .info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-container .info h4 {
+  color: var(--dark-3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-container .info h3 {
+  color: var(--dark-2);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
 /* About us section CSS end here */
