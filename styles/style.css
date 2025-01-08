@@ -62,7 +62,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 30px;
 }
 nav .logo {
   color: var(--dark-1);
@@ -165,5 +166,43 @@ nav .nav-link li {
   font-weight: 700;
   line-height: 30px;
 }
-
 /* About us section CSS end here */
+
+/* Skill section CSS start from here */
+#skill {
+  width: 1140px;
+  margin: 130px auto;
+  text-align: center;
+}
+#skill > .description {
+  color: var(--dark-3);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px auto;
+  width: 909px;
+}
+.skill-container {
+  text-align: start;
+  display: flex;
+  gap: 24px;
+}
+.skill-container .skill-card {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-container .skill-card h3 {
+  color: var(--dark-1);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0 20px 0;
+}
+.skill-card p {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* Skill section CSS end here */
