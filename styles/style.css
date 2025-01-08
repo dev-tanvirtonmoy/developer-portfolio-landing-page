@@ -25,6 +25,7 @@ a:hover {
 :root {
   --dark-1: #181818;
   --dark-2: #474747;
+  --dark-3: #757575;
   --white: #ffffff;
 }
 .btn-primary {
@@ -37,9 +38,25 @@ a:hover {
   cursor: pointer;
   border: none;
 }
+.btn-secondary {
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+  padding: 18px 36px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  background: transparent;
+}
 /* Shared CSS end here */
 
 /* Navbar CSS start from here */
+header {
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 nav {
   width: 1140px;
   display: flex;
@@ -66,3 +83,43 @@ nav .nav-link li {
   font-weight: 400;
 }
 /* Navbar CSS end here */
+
+/* Banner part CSS start from here */
+#banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content {
+  width: 585px;
+  margin-left: 390px;
+}
+#banner .banner-img {
+  margin-right: 50px;
+}
+.banner-content .subtitle {
+  color: var(--dark-2);
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner-content .title {
+  color: var(--dark-1);
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-content .description {
+  color: var(--dark-3);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0 30px 0;
+}
+.banner-content .btn-container {
+  display: flex;
+  gap: 30px;
+}
+.btn- > .btn-primary {
+  color: #fff8f3;
+}
+/* Banner part CSS end here */
